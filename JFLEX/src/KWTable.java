@@ -7,7 +7,7 @@ public class KWTable {
 	{
 		// Inicijalizcaija hash tabele koja pamti kljucne reci
 		mTable = new Hashtable();
-		mTable.put("program", new Integer(sym.PROGRAM));
+		mTable.put("main", new Integer(sym.MAIN));
 		mTable.put("var", new Integer(sym.VAR));
 		mTable.put("integer", new Integer(sym.INTEGER));
 		mTable.put("char", new Integer(sym.CHAR));

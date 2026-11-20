@@ -40,6 +40,8 @@ cifra = [0-9]
 \( { return new Yytoken( sym.LEFTPAR, yytext(), yyline, yycolumn ); }
 \) { return new Yytoken( sym.RIGHTPAR, yytext(), yyline, yycolumn ); }
 
+
+
 //operatori
 \+ { return new Yytoken( sym.PLUS,yytext(), yyline, yycolumn ); }
 \* { return new Yytoken( sym.MUL,yytext(), yyline, yycolumn ); }

@@ -1,7 +1,20 @@
-program
-begin
- (*ovo je komentar*)
- var a:integer b:char;
- a:=356;
- b:='c'
-end
+main()
+{
+/** kom */
+
+    int ceo;
+    real realni;
+
+    bool flag;
+
+    ceo := 10
+
+    if (ceo == 10)
+    {
+    flag := true
+    }
+    else
+    {
+    ceo := 16#F9
+    }
+}
